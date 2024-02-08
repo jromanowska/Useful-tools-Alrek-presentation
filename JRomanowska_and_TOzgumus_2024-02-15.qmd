@@ -1,0 +1,137 @@
+---
+title: "How to make your data analysis flow?"
+author: "Julia Romanowska and Türküler Özgümüş"
+date: 2024-02-15
+format:
+  revealjs:
+    date-format: "YYYY-MM-DD"
+    theme: sky
+---
+
+```{r}
+#| include: false
+library(fontawesome)
+```
+
+## Discussion {.center}
+
+::: {.r-fit-text}
+go to `www.menti.com` and type the code:
+
+``5499 7451``
+:::
+
+## Today's focus {.center}
+
+- naming things
+
+- collaborative spaces
+
+:::notes
+- naming things:
+  - Turkuler will fill in here?
+
+- collaborative spaces
+  - share scripts, notes, data to improve workflow and make analysis and
+  publication faster
+  - GitLab
+  - open data
+
+:::
+
+## Naming things
+
+## Collaborative spaces {#color-slide background-image="img/alexander-grey-Ou8UZHLRI70-unsplash.jpg" background-position="right" .r-fit-text}
+
+```{css}
+#| echo: false
+
+#color-slide h2{
+  color: white;
+}
+```
+
+<p style="font-size: small; position: absolute; bottom: 5px; right: 5px;">
+Photo by <a href="https://unsplash.com/@sharonmccutcheon?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Alexander Grey</a> on <a href="https://unsplash.com/photos/person-holding-doughnut-Ou8UZHLRI70?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+</p>
+
+. . .
+
+- keep notes
+
+. . .
+
+- share code
+
+. . .
+
+- share data
+
+## Open your Data
+
+- not only _raw input data!_
+
+:::notes
+We're usually not allowed to share our input data, if these come from health
+surveys, health registries, MoBa, genetic measurements, etc.
+
+_However_, we can always share something!
+:::
+
+. . .
+
+- _all_ results
+
+:::notes
+Have you considered what to include in a paper where the space is limited?
+Have you ever thought about how "open" this is?
+
+What did you do with all the other results you produced? How about just sharing
+all that your analyses give out _and_ the code you used to obtain these?
+:::
+
+. . .
+
+- accessible by anyone
+
+:::notes
+So you've created many tables and published them in supplementary material?
+Wonderful! Have you ever thought about how "open" this is?
+:::
+
+## Example {.center}
+
+:::notes
+**Look at these files:**
+
+1. Word document with a stylized table - nice to _watch_, not nice to _work with_
+2. Excel spreadsheet with _two_ tables in one sheet
+3. CSV file and meta-data
+
+The first two are in `extras` folder, the last ones are on [GitHub repo](https://github.com/jromanowska/Norwegian_drug_screening_ATC_level2/tree/main/DATA).
+
+**Questions:**
+
+Which one do you prefer?
+
+Which one is easiest to incorporate in analyses as input?
+
+Which one is easiest to open?
+:::
+
+
+## Good practice {.center}
+
+1. Share _all_ that you can share
+
+. . .
+
+2. Describe your data
+
+. . .
+
+3. Create text-files, not Excel or Word
+
+. . .
+
+4. (*) Public repository
