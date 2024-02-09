@@ -23,23 +23,27 @@ go to `www.menti.com` and type the code:
 
 ## Today's focus {.center}
 
-- naming things
-
 - collaborative spaces
 
+- folder (directory) structure
+
+- naming things
+
 :::notes
-- naming things:
-  - Turkuler will fill in here?
 
 - collaborative spaces
   - share scripts, notes, data to improve workflow and make analysis and
   publication faster
   - GitLab
   - open data
+  
+- folder structure
+
+- naming things
+  - file naming
+  - naming conventions
 
 :::
-
-## Naming things
 
 ## Collaborative spaces {#color-slide background-image="img/alexander-grey-Ou8UZHLRI70-unsplash.jpg" background-position="right" .r-fit-text}
 
@@ -135,3 +139,155 @@ Which one is easiest to open?
 . . .
 
 4. (*) Public repository
+
+## Folder (directory) structure {.center}
+
+---
+
+![](img/Folder1)
+
+:::notes
+A mistake we always do is to save some files in whatever folder it is being downloaded and leave it there. 
+:::
+
+---
+
+![](img/Folder4.jpg)
+
+:::notes
+We save temporary files on the desktop or in downloads folder. We do not remember if they are important or we can delete them. Or we think that they are under hand there, so it is good practice. 
+:::
+
+---
+
+![](img/Folder2.png)
+
+:::notes
+Also, sometimes just to make it a bit more structured, we save things in folders that we name randomly. 
+:::
+
+---
+
+![](img/Folder3.jpg)
+
+:::notes
+One thing when we receive an attachment or create a file should be to save it in a folder where it belongs. This is a small step for your current self but it is a giant leap for your future self.
+:::
+
+---
+
+![](img/folder6.png)
+
+:::notes
+If you create your own structure on the computer, it will be one step further to achieve more productivity and less annoyance first of all for you.
+
+:::
+
+---
+
+![](img/folder5.png)
+
+:::{.notes}
+This is a small example I created. I am not always so clean and follow the rules all the time. For example, here I forgot to add readme files. But I try to spend some time to move files/folders on my computer as a spring or Christmas cleaning.
+:::
+
+## Naming things {.center}
+
+:::notes
+Naming files and folders, and other things in life - especially on the computer, is difficult job.
+:::
+
+---
+
+![](img/File2.jpg)
+
+:::{.notes}
+It is tempting to give some random name to a document or a draft that we do not know what to do. 
+:::
+
+---
+
+![](img/File1.jpg)
+
+:::{.notes}
+we are also very naive to think that there will be one document who will rule them all.
+:::
+
+---
+
+![](img/File3.gif)
+
+:::{.notes}
+it is absolutely necessary to set a naming convention for yourself, or ideally within your team to be able to understand the content of the documents without even opening them. It is also absolutely necessary to have a basic version control on the documents like articles, which will be changed several time before they are being submitted. The naming convention should not be very complicated like in Dilbert's case here.
+:::
+
+---
+
+Jenny Bryan
+
+![](img/file5.pdf.png)
+
+:::{.notes}
+Jenny Bryan, a software engineer at former Rstudio, has some very useful talks on naming. You can find them by googling her name with writing naming if you would like to get more inspiration on this. 
+:::
+
+---
+
+3 principles to name files:
+
+  - machine readable  
+  - human readable  
+  - plays well with default ordering
+
+:::{.notes}
+She mentions three principles for file names: they should be machine readable, human readable and plays well with default ordering
+:::
+
+---
+
+  - *machine readable*  
+    **avoid:**
+    - spaces  
+    - punctuation (other than _ and -)
+    - accented characters
+    - case sensitivity
+
+:::{.notes}
+These are achievable if we are careful with some points mentioned here. Making file names machine readable helps to search for files later. 
+:::
+    
+---
+
+  - *human readable*  
+    - contains info on content
+    
+:::{.notes}
+They should be human readable, so that you would guess the content. It is very useful when you need something from a document and you do not need to open other 100 of them to see if it is the document that you need. 
+:::
+    
+---
+
+  - *plays well with default ordering*
+    - put something numeric first (date, order of workflow)
+    - If you want to see files in order of 1,2,.., put a zero at the start: 01,02,...
+
+. . .
+
+    01_read_data.R
+    02_clean_data.R
+
+:::{.notes}
+It is very nice if you can order the files with the date of creation or some other logical order that you would like to use. 
+:::
+
+---
+
+![](img/iso_8601_2x.png)
+
+:::{.notes}
+for dates, use ISO 8601 standard, which is year in 4 digits dash month in two digits dash day in two digits
+:::
+
+---
+
+![](img/File4.jpg)
