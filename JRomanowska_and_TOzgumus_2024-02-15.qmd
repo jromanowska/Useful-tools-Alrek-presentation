@@ -223,23 +223,16 @@ it is absolutely necessary to set a naming convention for yourself, or ideally w
 
 ---
 
-Jenny Bryan
-
-![](img/file5.pdf.png)
-
-:::{.notes}
-Jenny Bryan, a software engineer at former Rstudio, has some very useful talks on naming. You can find them by googling her name with writing naming if you would like to get more inspiration on this. 
-:::
-
----
-
 3 principles to name files:
 
   - machine readable  
   - human readable  
   - plays well with default ordering
+  
+  *by Jenny Bryan*
 
 :::{.notes}
+Jenny Bryan, a software engineer at former Rstudio, has some very useful talks on naming. You can find them by googling her name with writing naming if you would like to get more inspiration on this. 
 She mentions three principles for file names: they should be machine readable, human readable and plays well with default ordering
 :::
 
@@ -279,6 +272,10 @@ They should be human readable, so that you would guess the content. It is very u
 :::{.notes}
 It is very nice if you can order the files with the date of creation or some other logical order that you would like to use. 
 :::
+
+---
+
+![](img/file5.pdf.png)
 
 ---
 
